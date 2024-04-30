@@ -119,13 +119,13 @@ h3 {
     margin-bottom: .5rem;
 }
 
-#sign {
+.sign {
     position: absolute;
     display: block;
     float: right;
     margin-left: 88.99%;
 }
-#login{
+.login{
     position: absolute;
     display: block;
     float: right;
@@ -410,7 +410,7 @@ footer{
     width: 8%;
 }
 
-#magic {
+.magic {
     position: absolute;
     margin-left: 1302px;
 }
