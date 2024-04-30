@@ -640,6 +640,7 @@ footer{
     .sections-table td a {
         color: black;
         font-weight: bold;
+        text-decoration:none;
     }
 
     .sections-table-div{
