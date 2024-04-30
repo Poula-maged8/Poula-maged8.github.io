@@ -368,19 +368,19 @@ footer{
     margin-left: 85%;
 }
 
-table {
+.sections-table {
     width: 100%;
     padding: 0px;
     /* border: 2px solid #ccc; */
     margin-top: 57px;
 }
 
-table td {
+.sections-table td {
     padding: 15px;
     background-color: #d1d0d0;
 }
 
-table thead td {
+.sections-table thead td {
     background-color: #87afee;
     font-weight: bold;
     text-align: center;
@@ -417,7 +417,7 @@ table thead td {
     text-align: center;
 }
 
-.about-us-table a {
+.about-us-.sections-table a {
     padding: 15px;
     color: #7676c7;
     text-decoration: none;
@@ -633,53 +633,33 @@ a{
         text-align:center;
     }
 
-.sale{
-    position: absolute;
-    top: 130px;
-    right: 70px;
-}
-body{
-    background: rgb(246, 245, 245);
-}
-body {
-    font-family: Arial, sans-serif;
-  }
-  
- .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    position: absolute;
-    top: 1200px;
-    right: 100px;
-  }
-  
-  .item {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .item img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-  
-  .caption {
-    margin-top: 10px;
-  }
-div .FLQqr{
-    position: absolute;
-    top: 120px;
-}
-.pp{
-    position: absolute;
-    top: 50px;
-}
-.video{
-    width: 85%;
-}
+    .sections-table {
+        width: 100%;
+        padding: 0px;
+        /* border: 2px solid #ccc; */
+        margin-top: 57px;
+    }
+    
+    .sections-table td {
+        padding: 15px;
+        background-color: #87afee;
+    }
+    
+    .sections-table thead td {
+        background-color: #87afee;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .sections-table td a {
+        color: black;
+        font-weight: bold;
+    }
+
+    .sections-table-div{
+        width: 9%;
+        margin-left: 90%;
+        margin-top: -118px;
+        position: absolute;
+    } 
 
