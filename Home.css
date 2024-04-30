@@ -14,20 +14,20 @@
     margin: 0;
 }
 
-li a {
+.li a {
     color: white;
     text-decoration: none;
     text-align: center;
 }
 
 
-.ul li {
+.ul .li {
     padding: 16px;
     transition: 0.6s;
     position: relative;
 }
 
-.ul li::before {
+.ul .li::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -38,11 +38,11 @@ li a {
     transition: 0.6s;
 }
 
-.ul li:hover::before {
+.ul .li:hover::before {
     width: 100%;
 }
 
-li:hover {
+.li:hover {
     background-color: black;
     color: white;
 }
@@ -610,4 +610,3 @@ a{
     .title {
         text-algine:center;
     }
-
