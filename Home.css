@@ -696,6 +696,13 @@ body {
     position: absolute;
     top: 50px;
 }
+
+.evra {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
 .vidd{
     width: 85%;
 } */
