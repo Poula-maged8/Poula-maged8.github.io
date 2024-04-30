@@ -27,7 +27,7 @@
 .ul li {
     padding: 16px;
     transition: 0.6s;
-/*     position: relative; */
+    position: relative;
 }
 
 .ul li::before {
@@ -45,11 +45,6 @@
     width: 100%;
 }
 
-/* li:hover {
-    background-color: black;
-    color: white;
-} */
-/*        */
 li a {
     color: white;
     text-decoration: none;
