@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-li a {
+.li a {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -42,7 +42,11 @@ li a {
     width: 100%;
 }
 
-li:hover {
+.li:hover {
+    background-color: black;
+    color: white;
+}
+#nav-login-sign:hover {
     background-color: black;
     color: white;
 }
@@ -116,6 +120,15 @@ h3 {
     display: block;
     float: right;
     margin-left: 94.5%;
+}
+
+.ul .sign a {
+    text-decoration: none;
+    color: white;
+}
+.ul .login a{
+    text-decoration: none;
+    color: white;
 }
 
 .p1 {
@@ -502,7 +515,6 @@ footer{
     justify-content: center;
     align-items: center;
     margin:50px 0;
-
  }
  .content{
     width:20%;
@@ -646,7 +658,7 @@ footer{
     .sections-table-div{
         width: 9%;
         margin-left: 90%;
-        margin-top: -118px;
+        margin-top: -72px;
         position: absolute;
     } 
 
@@ -696,14 +708,12 @@ body {
     position: absolute;
     top: 50px;
 }
-
+.vidd{
+    width: 85%;
+} 
 .evra {
     text-decoration: none;
     list-style: none;
     display: flex;
 }
-
-.vidd{
-    width: 85%;
-} */
 
