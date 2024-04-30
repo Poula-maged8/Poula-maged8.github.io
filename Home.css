@@ -14,20 +14,20 @@
     margin: 0;
 }
 
-#li a {
+li a {
     color: white;
     text-decoration: none;
     text-align: center;
 }
 
 
-.ul #li {
+.ul li {
     padding: 16px;
     transition: 0.6s;
     position: relative;
 }
 
-.ul #li::before {
+.ul li::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -38,13 +38,35 @@
     transition: 0.6s;
 }
 
-.ul #li:hover::before {
+.ul li:hover::before {
     width: 100%;
 }
 
-#li:hover {
+li:hover {
     background-color: black;
     color: white;
+}
+/**/
+
+.ulfooter li {
+    padding: 16px;
+    transition: 0.6s;
+    position: relative;
+}
+
+.ulfooter li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    height: 3px;
+    background-color: #87afee;
+    transition: 0.6s;
+}
+
+.ulfooter li:hover::before {
+    width: 100%;
 }
 
 h3 {
@@ -608,7 +630,7 @@ a{
     }
 
     .title {
-        text-algine:center;
+        text-align:center;
     }
 
 
