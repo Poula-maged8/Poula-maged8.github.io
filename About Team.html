@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+        <title>Wardrobia Registration</title>
+        <link id="stylesheet" rel="stylesheet" href="Home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+       <nav>
+      <ul class="ul">
+          <li id="li"><a  href="index.html">Home</a></li>
+          <li id="li"><a href="https://www.defacto.com/en-eg/woman">Women</a></li>
+          <li id="li"><a href="https://www.defacto.com/en-eg/man">Men</a></li>
+          <li id="li"><a href="Kids.html">Kids</a></li>
+          <li id="li" class="login"><a href="login.html">Login</a></li>
+          <li id="li" class="sign"><a href="Form page.html">Sign up</a></li>
+           <li id="li" class="magic" id="magic"><i id="fa-solid fa-wand-magic-sparkles" class="fa-solid fa-wand-magic-sparkles" onclick="document.getElementById('stylesheet-2').href = 'Home 2.css'" ondblclick="document.getElementById('stylesheet-2').href = 'Home.css'"></i></li>
+      </ul>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              const imgMagic = document.querySelector(".fa-wand-magic-sparkles");
+              let isAlternate = false;
+  
+              imgMagic.addEventListener("click", function() {
+                  if (isAlternate) {
+                      document.getElementById('stylesheet-2').href = 'Home.css';
+                  } else {
+                      document.getElementById('stylesheet-2').href = 'Home 2.css';
+                  }
+                  isAlternate = !isAlternate;
+              });
+          });
+      </script>
+   </nav>
+        <main>
+            <table class="about-us-table">
+                <thead>
+                    <tr>
+                        <td class="tname">Name</td>
+                        <td class="tid">ID</td>
+                        <td>link of pages</td>
+                    </td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Poula Maged helmy</td>
+                        <td id="id">20230129</td>
+                        <td class="tdlink"><pre class="link-of-pages"><a href="index.html">Home</a>  <a href="Kids.html">Kids</a>  <a href="login.html">Login</a>  <a href="Form page.html">Form</a></pre></td>
+                    </tr>
+                    <tr>
+                        <td>Evraiem Youssef Makram</td>
+                        <td id="id">20230085</td>
+                        <td class="tdlink"><pre class="link-of-pages"><a href="Womesns.html">Women</a>  <a href="WAccessories.html">WAccessories</a></pre></td>
+                    </tr>
+                    <tr>
+                        <td>Andrew Nady Abdalkudus</td>
+                        <td id="id">20230096</td>
+                        <td class="tdlink"><pre class="link-of-pages"><a href="Mens.html">Men</a>  <a href="MAccessories.html">MAccessories</a></pre></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+         <div class="footerContainer">
+             <div class="socialIcons">
+                 <a href=""><i class="fa-brands fa-facebook"></i></a>
+                 <a href=""><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-twitter"></i></a>
+                 <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                 <a href=""><i class="fa-brands fa-youtube"></i></a>
+             </div>
+             <div class="footerNav">
+                 <ul class="ulfooter">
+                     <li id="li"><a href="index.html">Home</a></li>
+                     <li id="li"><a href="https://www.defacto.com/en-eg/woman">Womens</a></li>
+                     <li id="li"><a href="https://www.defacto.com/en-eg/man">Mens</a></li>
+                     <li id="li"><a href="Kids.html">Kids</a></li>
+                 </ul>
+             </div>
+             
+         </div>
+         <div class="footerBottom">
+             <p>Copyright &copy;2023</p>
+         </div>
+     </footer>
+    </body>
+</html>
