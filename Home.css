@@ -83,13 +83,13 @@ h3 {
     margin-bottom: .5rem;
 }
 
-.sign {
+.ul .sign {
     position: absolute;
     display: block;
     float: right;
     margin-left: 88.99%;
 }
-.login{
+.ul .login{
     position: absolute;
     display: block;
     float: right;
@@ -375,7 +375,7 @@ table thead td {
 .tid {
     width: 8%;
 }
-.magic {
+.ul .magic {
     position: absolute;
     margin-left: 1285px;
 }
