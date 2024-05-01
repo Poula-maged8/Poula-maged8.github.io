@@ -657,6 +657,13 @@ footer{
         position: absolute;
     } 
 
+    .sections-table-div-men{
+        width: 9%;
+        margin-left: 90%;
+        margin-top: -26px;
+        position: absolute;
+    } 
+
 .sale{
     position: absolute;
     top: 257px;
@@ -705,7 +712,7 @@ body {
     top: 133px;
 }
 .vidd{
-    width: 85%;
+    width: 60%;
 } 
 .evra {
     text-decoration: none;
