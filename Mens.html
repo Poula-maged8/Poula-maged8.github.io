@@ -8,32 +8,32 @@
 </head>
 <body>
 
-    <nav class="sticky">
-        <ul class="ul">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Women.html">Womens</a></li>
-            <li><a href="Mens.html">Mens</a></li>
-            <li><a href="Kids.html">Kids</a></li>
-            <li class="login"><a href="login.html">Login</a></li>
-            <li class="sign"><a href="Form page.html">Sign up</a></li>
-            <li class="magic" id="magic"><i id="fa-solid fa-wand-magic-sparkles" class="fa-solid fa-wand-magic-sparkles" onclick="document.getElementById('stylesheet-2').href = 'Home 2.css'" ondblclick="document.getElementById('stylesheet-2').href = 'Home.css'"></i></li>
-        </ul>
+    <nav>
+      <ul class="ul">
+          <li class="li"><a  href="index.html">Home</a></li>
+          <li class="li"><a href="Women.html">Women</a></li>
+          <li class="li"><a href="Mens.html">Men</a></li>
+          <li class="li"><a href="Kids.html">Kids</a></li>
+          <li class="login" id="nav-login-sign"><a href="login.html">Login</a></li>
+          <li  class="sign" id="nav-login-sign"><a href="Form page.html">Sign up</a></li>
+           <li  class="magic" id="nav-login-sign"><i id="fa-solid fa-wand-magic-sparkles" class="fa-solid fa-wand-magic-sparkles" onclick="document.getElementById('stylesheet-2').href = 'Home 2.css'" ondblclick="document.getElementById('stylesheet-2').href = 'Home.css'"></i></li>
+      </ul>
         <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                    const imgMagic = document.querySelector(".fa-wand-magic-sparkles");
-                    let isAlternate = false;
-        
-                    imgMagic.addEventListener("click", function() {
-                        if (isAlternate) {
-                            document.getElementById('stylesheet-2').href = 'Home.css';
-                        } else {
-                            document.getElementById('stylesheet-2').href = 'Home 2.css';
-                        }
-                        isAlternate = !isAlternate;
-                    });
-                });
-            </script>
-     </nav>
+          document.addEventListener("DOMContentLoaded", function() {
+              const imgMagic = document.querySelector(".fa-wand-magic-sparkles");
+              let isAlternate = false;
+  
+              imgMagic.addEventListener("click", function() {
+                  if (isAlternate) {
+                      document.getElementById('stylesheet-2').href = 'Home.css';
+                  } else {
+                      document.getElementById('stylesheet-2').href = 'Home 2.css';
+                  }
+                  isAlternate = !isAlternate;
+              });
+          });
+      </script>
+   </nav>
     <div class="sections-table-div"><table class="sections-table">
         <thead>
             <tr>
