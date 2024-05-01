@@ -669,7 +669,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-/*  .andrew {
+  .andrew {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -695,7 +695,7 @@ body {
   .caption {
     margin-top: 10px;
   }
-/* div .FLQqr{
+  div .FLQqr{
     position: absolute;
     top: 120px;
 }
